@@ -19,11 +19,11 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="워"/>
+            android:text="마지심슨"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="마지심슨"/>
+            android:text="워"/>
     </LinearLayout>
 
     <FrameLayout
