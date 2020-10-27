@@ -5,22 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:padding="10dp"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
         <Button
+            android:id="@+id/btn_do"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="도경수"/>
         <Button
+            android:id="@+id/btn_sim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="마지심슨"/>
         <Button
+            android:id="@+id/btn_wuah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="워"/>
@@ -30,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
+            android:id="@+id/linear_do"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffff00"
@@ -41,10 +47,12 @@
                 android:src="@drawable/jonjal"/>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/linear_sim"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#E91E63"
-            android:gravity="center">
+            android:gravity="center"
+            android:visibility="invisible">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -52,10 +60,12 @@
                 android:src="@drawable/sim"/>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/linear_wuah"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#03A9F4"
-            android:gravity="center">
+            android:gravity="center"
+            android:visibility="invisible">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
